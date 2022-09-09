@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Form</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+         </head>
+    <body>
+     <h2>Form Validation</h2>
+             <br>
+             <form action="/action_page.php" class="was-validated">
+             <div class="mb-3 mt-3 form-floating">
+                <input type="text" class="form-control" id="uname" placeholder="User Name" name="uname" required>
+                <label for="uname" class="form-label">User Name</label>
+              <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">
+                Please fill out this field.
+            </div>
+             </div>
+              <br>   
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="927912xxxx" required>
+                <label for="floatingInput">Phone Number</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">
+                    Please fill out this field.
+              </div>
+              <br>   
+             <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">
+                    Please fill out this field.
+              </div>
+              <br>   
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                <label for="floatingPassword">Password</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">
+                    Please fill out this field.
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" value="" id="flexRadioDefault">
+                <label class="form-check-label" for="flexRadioDefault">Remember me</label>
+              </div>
+              <br>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" required id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <br>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                <label class="form-check-label" for="flexCheckDefault">Agree on Terms & Conditions</label>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">
+                    Please Accept To Move Ahead.
+              </div>
+              <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
+       
+        </div>
+        </form>
+    </div>
+    </body>
+    </html>  
